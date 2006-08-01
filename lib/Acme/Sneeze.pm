@@ -27,9 +27,9 @@ Acme::Sneeze - Bless you
   package Others;
 
   my $object = Your::Object->new;
-  $object->sneeze;
+  $object->sneeze;    # "bless you!"
 
-  print ref($object); # "Others"
+  print ref($object); # will print "Others"
 
 =head1 DESCRIPTION
 
@@ -39,6 +39,21 @@ without the 2nd parameter: the package name.
 
 So with Acme::Sneeze, your object will have I<sneeze> method, and when
 you sneeze you'll be automatically blessed to the current package.
+
+=head1 TODO
+
+=head2 LOCALIZATION
+
+In Japan, sneezing twice implies that "someone is talking about you." I
+guess I<Acme::Sneeze> should be localized to increment reference count
+of the object if the users locale is set to JP.
+
+In Porland, the common response I<Sto lat> translates as I<Hundred
+years>, wishing hundred years of health to the sneezer.
+I<Acme::Sneeze> should wrap I<CORE::time> in Porland maybe.
+
+More interesting stories about different reactions to sneezing in
+different countries are available at L<http://en.wikipedia.org/wiki/Sneeze>
 
 =head1 AUTHOR
 
