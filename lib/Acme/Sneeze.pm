@@ -1,7 +1,7 @@
 package Acme::Sneeze;
 
 use strict;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Exporter::Lite;
 our @EXPORT = qw(sneeze);
