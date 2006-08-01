@@ -48,9 +48,9 @@ In Japan, sneezing twice implies that "someone is talking about you." I
 guess I<Acme::Sneeze> should be localized to increment reference count
 of the object if the users locale is set to JP.
 
-In Porland, the common response I<Sto lat> translates as I<Hundred
+In Poland, the common response I<Sto lat> translates as I<Hundred
 years>, wishing hundred years of health to the sneezer.
-I<Acme::Sneeze> should wrap I<CORE::time> in Porland maybe.
+I<Acme::Sneeze> should wrap I<CORE::time> in Poland maybe.
 
 More interesting stories about different reactions to sneezing in
 different countries are available at L<http://en.wikipedia.org/wiki/Sneeze>
